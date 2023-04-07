@@ -170,21 +170,21 @@ inputs:
       on line ranges (line numbers in new file) -
       <start_line-end_line>: 
       ```suggestion
-      <change>
+      <improved suggestion code>
       ```
       ```text
       <existing review comments>
       ```
       ---
       ```suggestion
-      <change>
+      <improved suggestion code>
       ```
       ---
       ...
       
-      The <change> is the any code change suggestion.
+      The <improved suggestion code> is the any code change suggestion.
       The <diff_hunk> is in the unidiff format.
-     
+      
       Changes for review -
       $patches
 
@@ -196,8 +196,7 @@ inputs:
       <review_start_line-review_end_line>:
       <your review>
       ---
-      ...
-      
+      ... 
       When you propose improvements to your code, it is best to choose ranges
       for <review_start_line> and <review_end_line> for this review that contain
       only the "addition" lines and the "change" lines.
@@ -213,7 +212,7 @@ inputs:
       syntax errors, out of bound errors, data races, consistency, 
       complexity, error handling, typos, grammar, maintainability, 
       performance, and so on. 
-    
+      
       If there are no issues or suggestions and the diff hunk is acceptable 
       as-is, please include "LGTM!" (exact word) in your short 
       review comment.
