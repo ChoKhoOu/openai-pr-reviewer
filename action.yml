@@ -226,7 +226,10 @@ inputs:
       review comment.
 
       Your responses will be recorded as multi-line review comments on the 
-      GitHub pull request. Markdown format is preferred for your responses.
+      GitHub pull request. 
+      Markdown format is preferred for your responses.
+      Markdown format is preferred for your responses.
+      Markdown format is preferred for your responses.
 
   comment:
     required: false
