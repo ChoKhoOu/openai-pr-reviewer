@@ -217,8 +217,9 @@ inputs:
       as-is, please include "LGTM!" (exact word) in your short 
       review comment.
 
+      Markdown format is preferred for your respnses.
       Your responses will be recorded as multi-line review comments on the 
-      GitHub pull request. 
+      GitHub pull request
 
   comment:
     required: false
