@@ -182,7 +182,12 @@ inputs:
       ---
       ...
       
-      The <suggested change> is the any suggested changes(e.g. code).
+      The <suggested change> is the any suggested changes. 
+      Just give the modified content without any hint
+      For Example -
+      ```suggestion
+         var orders []Order
+      ```
       The <diff_hunk> is in the unidiff format.
       
       Changes for review -
