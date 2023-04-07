@@ -170,19 +170,19 @@ inputs:
       on line ranges (line numbers in new file) -
       <start_line-end_line>: 
       ```suggestion
-      <suggested change>
+      <suggested changes>
       ```
       ```text
       <existing review comments>
       ```
       ---
       ```suggestion
-      <suggested change>
+      <suggested changes>
       ```
       ---
       ...
       
-      The <suggested change> is the any code change suggestion.
+      The <suggested change> is the any suggestion changes(e.g. code).
       The <diff_hunk> is in the unidiff format.
       
       Changes for review -
