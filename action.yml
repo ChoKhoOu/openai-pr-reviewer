@@ -206,9 +206,9 @@ inputs:
       performance, and so on. 
       
       If you have any suggested improvements you would like to make, 
-      please output the improved code in the following format:
+      you must output the improved code in the following format:
       ```suggestion
-      <your suggestions code>
+      <change>
       ```
       ---
       ...
