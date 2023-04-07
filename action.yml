@@ -274,6 +274,18 @@ inputs:
       ```
       $comment
       ```
+      If the comment contains instructions/requests for you, please comply. 
+      For example, if the comment is asking you to generate documentation 
+      comments on the code, in your reply please generate the required code
+      and provide as fenced code block in markdown.
+      Please be sure to note that you can only do this for lines of type change and addition.
+      Any code change suggestion to the diff hunk must be enclosed in fenced code 
+      blocks with the suggestion identifier and the change must completely 
+      replace the diff hunk provided to you from the beginning -
+      <your comment to the user>
+      ```suggestion
+      <change>
+      ```
 runs:
   using: 'node16'
   main: 'dist/index.js'
