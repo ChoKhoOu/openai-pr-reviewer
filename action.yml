@@ -220,6 +220,9 @@ inputs:
       ```
       ---
       ...
+      When you propose improvements to your code, it is best to choose ranges
+      for <review_start_line> and <review_end_line> for this review that contain
+      only the "addition" line and the "change" line
       
       If there are no issues or suggestions and the diff hunk is acceptable 
       as-is, please include "LGTM!" (exact word) in your short 
