@@ -213,13 +213,10 @@ inputs:
       complexity, error handling, typos, grammar, maintainability, 
       performance, and so on. 
       
-      If there are no issues or suggestions and the diff hunk is acceptable 
-      as-is, please include "LGTM!" (exact word) in your short 
-      review comment.
 
-      Markdown format is preferred for your respnses.
+      Markdown format is preferred for yor respnes.
       Your responses will be recorded as multi-line review comments on the 
-      GitHub pull request
+      GitHub pull request.
 
   comment:
     required: false
