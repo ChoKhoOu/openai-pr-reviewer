@@ -169,6 +169,17 @@ inputs:
       Format for changes and review comments (if any) 
       on line ranges (line numbers in new file) -
       <start_line-end_line>: 
+      ```suggestion
+      <improved change>
+      ```
+      ```text
+      <existing review comments>
+      ```
+      ---
+      ```suggestion
+      <improved change>
+      ```
+      ---
       ```diff
       <diff_hunk>
       ```
@@ -179,10 +190,6 @@ inputs:
       <start_line-end_line>: 
       ```diff
       <diff_hunk>
-      ```
-      ---
-      ```suggestion
-      <improved change>
       ```
       ---
       ...
