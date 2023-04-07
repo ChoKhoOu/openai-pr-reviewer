@@ -250,11 +250,13 @@ inputs:
       Here is the entire diff -
       ```diff
       $file_diff
+      43214321
       ```
 
       Here is diff being commented on -
       ```diff
       $diff
+      12341234
       ```
 
       The format of the conversation chain is -
