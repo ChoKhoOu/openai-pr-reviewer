@@ -181,9 +181,14 @@ inputs:
       <diff_hunk>
       ```
       ---
+      ```suggestion
+      <improved change>
+      ```
+      ---
       ...
 
       The <diff_hunk> is in the unidiff format.
+      The <improved change> is the code provided by the improvement proposal.
 
       Changes for review -
       $patches
@@ -197,30 +202,23 @@ inputs:
       <your review>
       ---
       ...
-
-      Reflect on the provided code at least 3 times to identify any 
-      bug risks or provide improvement suggestions in these diff hunks. 
-      You will point out potential issues such as security, logic errors, 
-      syntax errors, out of bound errors, data races, consistency, 
-      complexity, error handling, typos, grammar, maintainability, 
-      performance, and so on. 
       
-      If you have any suggested improvements you would like to make, 
-      you must output the improved code in the following format:
-      ```suggestion
-      <change>
-      ```
-      ---
-      ...
       When you propose improvements to your code, it is best to choose ranges
       for <review_start_line> and <review_end_line> for this review that contain
-      only the "addition" line and the "change" line
+      only the "addition" lines and the "change" lines.
       
       Make sure <review_start_line> and <review_end_line> for each review 
       must be within line ranges in the changes above. Don't echo back the 
       code provided to you as the line number range is sufficient to map 
       your comment to the relevant code section in GitHub.
       
+      Reflect on the provided code at least 3 times to identify any 
+      bug risks or provide improvement suggestions in these diff hunks. 
+      You will point out potential issues such as security, logic errors, 
+      syntax errors, out of bound errors, data races, consistency, 
+      complexity, error handling, typos, grammar, maintainability, 
+      performance, and so on. 
+    
       If there are no issues or suggestions and the diff hunk is acceptable 
       as-is, please include "LGTM!" (exact word) in your short 
       review comment.
