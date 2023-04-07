@@ -182,7 +182,7 @@ inputs:
       ---
       ...
       
-      The <improved change> is the any code change suggestion.
+      The <change> is the any code change suggestion.
       The <diff_hunk> is in the unidiff format.
      
       Changes for review -
