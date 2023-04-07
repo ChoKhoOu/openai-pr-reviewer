@@ -170,33 +170,21 @@ inputs:
       on line ranges (line numbers in new file) -
       <start_line-end_line>: 
       ```suggestion
-      <improved change>
+      <change>
       ```
       ```text
       <existing review comments>
       ```
       ---
       ```suggestion
-      <improved change>
-      ```
-      ---
-      ```diff
-      <diff_hunk>
-      ```
-      ```text
-      <existing review comments>
-      ```
-      ---
-      <start_line-end_line>: 
-      ```diff
-      <diff_hunk>
+      <change>
       ```
       ---
       ...
-
+      
+      The <improved change> is the any code change suggestion.
       The <diff_hunk> is in the unidiff format.
-      The <improved change> is the code provided by the improvement proposal.
-
+     
       Changes for review -
       $patches
 
